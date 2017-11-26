@@ -1,0 +1,23 @@
+{
+  "name": "static-webpage-starterkit",
+  "version": "1.0.0",
+  "description": "Build webpage with coffeescipt2 , pug & stylus.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "watch": " node_modules/.bin/webpack --watch"
+  },
+  "author": "Heymind",
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.0.2",
+    "coffeescript-loader": "^0.0.11",
+    "extract-text-webpack-plugin": "2.1.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-html-loader": "^1.1.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "2",
+    "webpack-livereload-plugin": "^1.0.0"
+  }
+}

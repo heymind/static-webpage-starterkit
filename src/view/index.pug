@@ -1,0 +1,14 @@
+script(src='./bundle.js')
+link(rel='stylesheet' href='./style.css')
+link(rel='stylesheet' href='./fa/css/font-awesome.css')
+script(src='http://localhost:35729/livereload.js')
+mixin menuItem(title)
+  .menu-item
+    span=title
+    i.fa.fa-angle-down(aria-hidden)
+ 
+.menu-group
+  +menuItem('abc')
+  +menuItem('345')
+  +menuItem('bbc')
+   
